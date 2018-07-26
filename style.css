@@ -1,0 +1,78 @@
+html {
+    font-size: 10px;
+    background: #ffff bottom center;
+    background-size: cover;
+  }
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono';
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 2;
+    font-family: 'Roboto Mono';
+    font-size: 3rem;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.create {
+    color: rgb(34, 75, 240);
+    font-size: 2.2rem;
+    transition: all .09s ease;
+}
+
+.create:hover {
+    transform: scale(1.2);
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid rgb(51, 15, 74);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 0.4);
+    /* text-shadow: 0 0 .5rem black; */
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ff9900;
+    box-shadow: 0 0 1rem #ffc400;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffa200;
+}

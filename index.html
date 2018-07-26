@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+
+<h3>An Indecisive Drumkit</h3>
+    <p>press a key to 
+      <br><span class="create"> create</span></br>
+    </p>
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">atmozz</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">deep b</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">footbass</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">hi hat</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">longlava</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">longsnare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">shaker</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">synthbass?</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.WAV"></audio>
+  <audio data-key="83" src="sounds/atmosbass.wav"></audio>
+  <audio data-key="68" src="sounds/deepbass.WAV"></audio>
+  <audio data-key="70" src="sounds/footbass.WAV"></audio>
+  <audio data-key="71" src="sounds/hihat.WAV"></audio>
+  <audio data-key="72" src="sounds/longlava.wav"></audio>
+  <audio data-key="74" src="sounds/longsnare.WAV"></audio>
+  <audio data-key="75" src="sounds/shaker.WAV"></audio>
+  <audio data-key="76" src="sounds/synthbass.wav"></audio>
+
+<script src="drum.js"></script>
+</body>
+</html>
